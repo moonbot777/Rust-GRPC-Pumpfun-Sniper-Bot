@@ -233,7 +233,7 @@ This software is for educational and research purposes only. Trading cryptocurre
 
 ## 📞 Support
 
-- **Telegram**: @greenfox
+- **Telegram**: [@greenfox](https://t.me/greenfoxfun)
 - **GitHub Issues**: [Create an issue](https://github.com/moonbot777/Sniper-bot-rust/issues)
 
 ## 🔄 Updates
