@@ -15,6 +15,13 @@ impl From<SwapDirection> for u8 {
             SwapDirection::Sell => 1,
         }
     }
+    fn from_u8(value: u8) -> Self {
+        match value {
+            0 => SwapDirection::Buy,
+            1 => SwapDirection::Sell,
+            _ => panic!("Invalid swap direction"),
+        }
+    }
 }
 
 #[derive(ValueEnum, Debug, Clone, Deserialize)]

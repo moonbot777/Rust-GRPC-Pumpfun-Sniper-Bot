@@ -51,4 +51,7 @@ pub const MAX_RETRIES: u8 = 3;
 pub struct TransactionConfig {
     pub skip_preflight: bool,
     pub encoding: String,
+    pub last_n_blocks: u64,
+    pub preflight_commitment: CommitmentConfig
 }
+
