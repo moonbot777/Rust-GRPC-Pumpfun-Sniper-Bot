@@ -34,6 +34,8 @@ pub fn get_tip_account() -> Result<Pubkey> {
         None => Err(anyhow!("nozomi: no tip accounts available")),
     };
 
+    println!("nozomi: tip account: {:?}", tip_account);
+
     let tip_account = tip_account?;
     Ok(tip_account)
 }
